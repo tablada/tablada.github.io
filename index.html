@@ -1,43 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <title>About | Raul Tablada</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Student Bio</h1>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Raul Tablada</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="container">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-    <section id="main-bio">
+      <img src="assets/images/Me.JPG" class="auth-image" alt="Raul Tablada">
 
-      <h2>Your Name</h2>
+      <p>I am 23 years old. Born and raised in Miami, Florida. "Made in Dade" </p>
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      <p>I love Soccer and streetwear fashion. Go Manchester United! </p>
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>Coding Rocks!</p>
+
     </section>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+  </div>`
 
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>

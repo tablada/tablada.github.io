@@ -1,2 +1,2 @@
 # tablada.github.io
-demo portfolio site
+portfolio site
